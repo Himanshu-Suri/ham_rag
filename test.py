@@ -31,7 +31,7 @@ def generate_question(module_id):
     print(raw)
     print("=== END ===")
 
-    raw = re.sub(r"'([^']*)'(\s*:)", r'"\1"\2', raw)  # fix 'key': patterns
+    raw = re.sub(r"'([^']*)'(\s*:)", r'"\1"\2', raw)  # fix 'key': patterns theres sometimes some issues here not sure why tho :(
     raw = re.sub(r":\s*'([^']*)'", r': "\1"', raw)
     try:
         return json.loads(raw)
