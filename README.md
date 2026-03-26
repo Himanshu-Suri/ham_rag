@@ -1,4 +1,4 @@
-# Ham Radio AI Tutor 📻
+# Ham Radio AI Tutor 
 
 An AI-powered study and exam preparation tool for the ASOC (Amateur Station Operator's Certificate).
 
