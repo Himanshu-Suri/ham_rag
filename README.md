@@ -7,7 +7,7 @@ An AI-powered study and exam preparation tool for ASOC (Amateur Station Operator
 - AI-powered study mode with textbook-grounded answers using RAG
 - MCQ exam mode with instant feedback and scoring
 - Ask follow-up questions on any module
-- 100% local and free — no API keys needed
+- 100% local and free (llama3) no API keys needed
 
 ## Tech Stack
 - **Frontend**: Next.js + TypeScript + Tailwind CSS
@@ -36,7 +36,7 @@ ham-radio-ai/
 ├── config.py            # 25 modules mapped from textbook
 └── ham-radio-ui/        # Next.js frontend
     └── app/
-        ├── page.tsx         # Home — module list
+        ├── page.tsx         # Home - module list
         ├── study/[id]/      # Study mode
         └── exam/[id]/       # Exam mode
 ```
